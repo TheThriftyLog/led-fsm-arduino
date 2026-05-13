@@ -21,7 +21,10 @@ Each button press advances to the next state, cycling 0 → 1 → 2 → 0.
 - Breadboard and jumper wires
 
 ## Schematic
-*(Insert TinkerCAD schematic image here)*
+![Schematic View](schematic_view.png)
+
+## Breadboard Layout
+![Circuit View](circuit_view.png)
 
 ## Demo Video
 *(Insert YouTube link here)*
