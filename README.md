@@ -26,9 +26,6 @@ Each button press advances to the next state, cycling 0 → 1 → 2 → 0.
 ## Breadboard Layout
 ![Circuit View](circuit_view.png)
 
-## Demo Video
-*(Insert YouTube link here)*
-
 ## Design Decisions
 - **Edge detection** is used instead of raw pin reading so each press registers exactly once regardless of how long the button is held.
 - **Software debouncing** via a 50ms delay after a rising edge prevents mechanical contact bounce from triggering multiple state transitions.
